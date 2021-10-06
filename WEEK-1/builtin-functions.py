@@ -4,6 +4,7 @@
 import random
 print(1, 2, 3)
 print('Hi','Hello','whatever you in your mind')
+
 '''
  print(), type(), round(), int(), float(), str(), input(),
  len(), sum(), min(), max(), list(), tuple(), dict(), eval(), abs(), bool(), enumerate(), map(), filter(), id(), sort(), sorted(), set(), zip

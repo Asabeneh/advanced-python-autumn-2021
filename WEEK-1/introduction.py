@@ -17,3 +17,11 @@ comment
 """
 
 print(1, 2, 3, 4, 'WAHT EVER', True, [1, 2, 3], None, ('year', 2021))
+
+
+# List comprehension can replace map and filter
+
+countries = ['Finland', 'Sweden', 'Denmark', 'Norway', 'Iceland']
+uppercase = [c.uppercase() for c in countries]
+countries_with_land = [c.uppercase() for c in countries if 'land' in c]
+country_codes = [[c, c.uppercase()[:3]] for c in countries]
