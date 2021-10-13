@@ -1,0 +1,11 @@
+[
+    {
+        "name":"Asabneeh",
+        "age":250
+    },
+    {
+        "name": "John",
+        "age": 25,
+        "skills":["HTML","css"]
+    }
+]
